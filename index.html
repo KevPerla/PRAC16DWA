@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6.7.3-35/tinymce.min.js" referrerpolicy="origin"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Practica 16</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="mt-4">
+            Foro
+            <button class="btn btn-primary" id="btnAbrirForo">Crear Publicacion</button>
+            <button class="btn btn-danger d-none" id="btnCerrarForo">Cerrar Publicacion</button>
+        </h3>
+        <div class="row d-none" id="formularioForo">
+            <div class="col-12 mb-3">
+                <textarea 
+                 class="form-control" 
+                 id="contendio" 
+                 rows="10"
+                 placeholder="Escribe tu comentario a publicar..."></textarea>
+            </div>
+            <div class="col-12 mb-3">
+                <button class="btn btn-success" type="button" id="btnPublicar">
+                    Publicar contenido
+                </button>
+            </div>
+        </div>
+
+        <div class="class" id="publicaciones">
+
+        </div>
+    </div>
+   
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
